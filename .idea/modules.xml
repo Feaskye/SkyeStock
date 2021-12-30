@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/com.skyestock.common/com.skyestock.common.iml" filepath="$PROJECT_DIR$/com.skyestock.common/com.skyestock.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.skyestock.fixclient/com.skyestock.fixclient.iml" filepath="$PROJECT_DIR$/com.skyestock.fixclient/com.skyestock.fixclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.skyestock.fixserver/fixserver.iml" filepath="$PROJECT_DIR$/com.skyestock.fixserver/fixserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/skyestock.iml" filepath="$PROJECT_DIR$/.idea/skyestock.iml" />
+    </modules>
+  </component>
+</project>

@@ -6,10 +6,12 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/com.skyestock.fixserver/pom.xml" />
         <option value="$PROJECT_DIR$/com.skyestock.fixclient/pom.xml" />
         <option value="$PROJECT_DIR$/com.skyestock.common/pom.xml" />
+        <option value="$PROJECT_DIR$/com.skyestock.platform/pom.xml" />
+        <option value="$PROJECT_DIR$/com.skyestock.fixserver/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

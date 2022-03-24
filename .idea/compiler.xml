@@ -7,13 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="com.skyestock.common" />
+        <module name="demo" />
+        <module name="com.skyestock.platform" />
         <module name="com.skyestock.fixclient" />
-        <module name="fixserver" />
+        <module name="com.skyestock.fixserver" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com.skyestock.common" target="1.8" />
       <module name="com.skyestock.fixclient" target="1.8" />
+      <module name="com.skyestock.fixserver" target="1.8" />
+      <module name="com.skyestock.platform" target="1.8" />
+      <module name="demo" target="1.8" />
       <module name="fixserver" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -21,6 +26,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="com.skyestock.common" options="-parameters" />
       <module name="com.skyestock.fixclient" options="-parameters" />
+      <module name="com.skyestock.platform" options="-parameters" />
+      <module name="demo" options="-parameters" />
     </option>
   </component>
 </project>

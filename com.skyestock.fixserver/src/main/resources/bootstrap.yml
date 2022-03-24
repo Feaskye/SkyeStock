@@ -1,0 +1,39 @@
+
+spring:
+  application:
+   name: fixserver
+  redis:
+    #1=单机 2=集群
+    strategy: 1
+    cluster:
+      nodes: 192.168.1.66:6300,192.168.1.76:6301
+    password: ENC(VUzZ+f1tI8p6UD6bUIk0FPLE9/G18b+6)
+    lettuce:
+      pool:
+        min-idle: 5
+        max-idle: 50
+        max-active: 100
+        max-wait: 1000
+
+log:
+  info:
+    to: console
+
+
+
+jasypt:
+  encryptor:
+    password: Bt%XJ^n1j8mz
+
+jetcache:
+  statIntervalMinutes: 1 #统计间隔分钟
+  areaInCacheName: false
+  local:
+    default: #默认area
+      type: caffeine
+      keyConvertor: fastjson
+  remote:
+    default:
+      type: redis.springdata # type由 redis.lettuce 变为了redis.springdata
+      keyConvertor: fastjson
+      valueEncoder: java

@@ -1,0 +1,9 @@
+server:
+  port: 7098
+
+
+spring:
+  application:
+    name: com-skyestock-config
+  profiles:
+    active: native

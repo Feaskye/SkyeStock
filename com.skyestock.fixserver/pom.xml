@@ -11,7 +11,7 @@
     <groupId>com.skyestock</groupId>
     <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
+    <name>fixserver</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
@@ -38,7 +38,7 @@
         <dependency>
             <groupId>com.plumelog</groupId>
             <artifactId>plumelog-logback</artifactId>
-            <version>3.4.3-SNAPSHOT</version>
+            <version>3.4.2</version>
         </dependency>
         <dependency>
             <groupId>org.apache.skywalking</groupId>

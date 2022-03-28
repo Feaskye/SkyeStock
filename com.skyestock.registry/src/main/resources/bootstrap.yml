@@ -1,0 +1,26 @@
+server:
+  port: 7099
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+#    service-url:
+#      defaultZone:
+
+
+
+spring:
+  application:
+    name: com-skyestock-registry
+
+management:
+  endpoint:
+    shutdown:
+      enabled: true
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: ["health","info","shutdown"]

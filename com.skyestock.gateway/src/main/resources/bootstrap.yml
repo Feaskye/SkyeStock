@@ -1,0 +1,34 @@
+server:
+  port: 7097
+
+
+spring:
+  application:
+    name: com-skyestock-gateway
+  cloud:
+    config:
+      uri: http://127.0.0.1:7098
+  sleuth:
+    sampler:
+      probability: 1.0
+
+
+eureka:
+  client:
+    healthcheck:
+      enable: true
+#    serviceUri:
+#      defaultZone: http://127.0.0.1:7099/eureka
+#    register-with-eureka: true
+#    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+
+
+
+ribbon:
+  ReadTimeOut: 300000
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 0
+

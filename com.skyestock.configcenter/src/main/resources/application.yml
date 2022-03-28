@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/config
+        git:
+          uri: https://github.com/Feaskye/SkyeStock.git
+          search-paths: classpath:/config
+#        health:
+#          repositories:
+#            check:
+#              name:
+#

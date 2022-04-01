@@ -2,22 +2,29 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="com.skyestock.common" />
         <module name="demo" />
-        <module name="com.skyestock.platform" />
-        <module name="com.skyestock.fixclient" />
+        <module name="com.skyestock.registry" />
+        <module name="com.skyestock.common" />
+        <module name="com.skyestock.configcenter" />
         <module name="com.skyestock.fixserver" />
+        <module name="com.skyestock.fixclient" />
+        <module name="com.skyestock.gateway" />
+        <module name="com.skyestock.platform" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com.skyestock.common" target="1.8" />
+      <module name="com.skyestock.configcenter" target="1.8" />
       <module name="com.skyestock.fixclient" target="1.8" />
       <module name="com.skyestock.fixserver" target="1.8" />
+      <module name="com.skyestock.gateway" target="1.8" />
       <module name="com.skyestock.platform" target="1.8" />
+      <module name="com.skyestock.registry" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="fixserver" target="1.8" />
     </bytecodeTargetLevel>
@@ -25,8 +32,11 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="com.skyestock.common" options="-parameters" />
+      <module name="com.skyestock.configcenter" options="-parameters" />
       <module name="com.skyestock.fixclient" options="-parameters" />
+      <module name="com.skyestock.gateway" options="-parameters" />
       <module name="com.skyestock.platform" options="-parameters" />
+      <module name="com.skyestock.registry" options="-parameters" />
       <module name="demo" options="-parameters" />
     </option>
   </component>

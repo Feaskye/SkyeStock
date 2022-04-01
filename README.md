@@ -24,7 +24,11 @@ stock demo 计划
     4：nosql、tidb、canal
     5：大数据 flink、scala
     6：xxjob、雪花算法
+        链路追踪-skywalking、
+        监控-普罗米修斯
+        granfna
     
+    持续集成：gitlab、docker、Harbor
     
     
     登录session用jwt

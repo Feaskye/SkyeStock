@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/com.skyestock.common/com.skyestock.common.iml" filepath="$PROJECT_DIR$/com.skyestock.common/com.skyestock.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.skyestock.configcenter/com.skyestock.configcenter.iml" filepath="$PROJECT_DIR$/com.skyestock.configcenter/com.skyestock.configcenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.skyestock.fixclient/com.skyestock.fixclient.iml" filepath="$PROJECT_DIR$/com.skyestock.fixclient/com.skyestock.fixclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.skyestock.gateway/com.skyestock.gateway.iml" filepath="$PROJECT_DIR$/com.skyestock.gateway/com.skyestock.gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.skyestock.platform/com.skyestock.platform.iml" filepath="$PROJECT_DIR$/com.skyestock.platform/com.skyestock.platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.skyestock.registry/com.skyestock.registry.iml" filepath="$PROJECT_DIR$/com.skyestock.registry/com.skyestock.registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.skyestock.fixserver/demo.iml" filepath="$PROJECT_DIR$/com.skyestock.fixserver/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/skyestock.iml" filepath="$PROJECT_DIR$/.idea/skyestock.iml" />
     </modules>

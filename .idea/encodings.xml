@@ -2,8 +2,11 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/com.skyestock.common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.skyestock.configcenter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com.skyestock.fixclient/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com.skyestock.fixserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.skyestock.gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com.skyestock.platform/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.skyestock.registry/src/main/java" charset="UTF-8" />
   </component>
 </project>
